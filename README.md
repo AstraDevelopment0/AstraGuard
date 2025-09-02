@@ -74,7 +74,7 @@ It keeps your network stable by detecting and blocking **Netty exploits**, **win
 ## 🔮 Roadmap
 - [ ] Support newer Minecraft versions  
 - [ ] Advanced exploit analytics  
-- [ ] Discord alerts & web dashboard  
+- [ ] Discord alerts 
 
 ---
 
