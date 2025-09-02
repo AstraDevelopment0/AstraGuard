@@ -1,0 +1,25 @@
+enabled: true
+webhook_url: "https://discord.com/api/webhooks/..."
+
+bot:
+  username: "AstraGuard"
+  avatar_url: "https://i.imgur.com/kl6V4bM.png"
+
+colors:
+  kick: "0xff0000"
+  check: "0xffa500"
+
+messages:
+  kick:
+    title: "🚫 Player Kicked"
+    description:
+      - "**Player:** %player%"
+      - "**Check:** %check%"
+      - "**Reason:** %reason%"
+  check:
+    title: "🛡️ Anti-Crash Triggered"
+    description:
+      - "**Player:** %player%"
+      - "**Check:** %check%"
+      - "**Details:** %details%"
+      - "**[%count%/%max%]**"

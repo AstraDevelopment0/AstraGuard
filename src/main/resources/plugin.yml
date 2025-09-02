@@ -1,0 +1,26 @@
+name: AstraGuard
+version: '1.1.0'
+main: dev.astra.guard.Main
+authors: [ KiloSheet, Misagh, YasharMaster ]
+depend: [ packetevents ]
+website: AstraDevelopment.iR
+commands:
+  astra:
+    description: AstraGuard main command
+    usage: /<command> [reload]
+    permission: astraguard.admin
+    aliases: [ag]
+
+permissions:
+  astraguard.admin:
+    description: Allows using admin commands
+    default: op
+  astraguard.admin.reload:
+    description: Allows using /astra reload
+    default: op
+  astraguard.admin.alerts:
+    description: Allows using /astra alerts
+    default: op
+  astraguard.admin.flags:
+    description: Allows using /astra flags
+    default: op
