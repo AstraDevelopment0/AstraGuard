@@ -54,8 +54,6 @@ It keeps your network stable by detecting and blocking **Netty exploits**, **win
 - **Server:** Spigot/Paper **1.8.x**  
 - **Dependencies:**
   - [PacketEvents](https://github.com/retrooper/packetevents)  
-  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
-
 ---
 
 ## ⚡ Quick Start
